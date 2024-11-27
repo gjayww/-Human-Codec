@@ -1,0 +1,6 @@
+g++ -o compress ImageCompress.cpp
+g++ -o extract ImageExtract.cpp
+g++ -o calculate_mse calculate_mse.cpp
+./compress
+./extract
+./calculate_mse
